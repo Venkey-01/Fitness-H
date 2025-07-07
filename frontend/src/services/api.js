@@ -1,7 +1,7 @@
 // src/services/api.js
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:3000/api';
+const BASE_URL = 'https://fitness-tracker-dih9.onrender.com/api';
 
 const getAuthHeader = () => ({
   headers: {
