@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API = 'http://localhost:3000/api/auth';
+const API = 'https://fitness-tracker-dih9.onrender.com/api/auth';
 
 export const login = async (email, password) =>
   axios.post(`${API}/login`, { email, password });

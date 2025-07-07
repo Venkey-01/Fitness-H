@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API = 'http://localhost:3000/api/workouts';
+const API = 'https://fitness-tracker-dih9.onrender.com/api/workouts';
 
 const getHeaders = () => ({
   headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },
